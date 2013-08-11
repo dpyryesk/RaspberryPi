@@ -1,0 +1,30 @@
+body {
+	padding-top: 0;
+}
+.masthead, .body-content, .footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer {
+	border-top: 1px solid #ddd;
+	margin-top: 30px;
+	padding-top: 29px;
+	padding-bottom: 30px;
+}
+.jumbotron {
+	text-align: center;/* background-color: transparent;*/
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+@media screen and (min-width: 768px) {
+body {
+	padding-top: 20px;
+}
+.masthead,  .marketing,  .footer {
+	padding-left: 0;
+	padding-right: 0;
+}
+}
