@@ -1,0 +1,75 @@
+/* app css stylesheet */
+
+body {
+	padding-top: 0;
+}
+.masthead, .body-content, .footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer {
+	border-top: 1px solid #ddd;
+	margin-top: 30px;
+	padding-top: 29px;
+	padding-bottom: 30px;
+}
+.jumbotron {
+	text-align: center;
+	/* background-color: transparent;*/
+}
+.jumbotron a {
+	text-decoration:none;
+}
+.row {
+	margin-top: 50px;
+}
+.modal {
+	display:block;
+}
+
+@media screen and (min-width: 768px) {
+body {
+	padding-top: 20px;
+}
+.masthead,  .marketing,  .footer {
+	padding-left: 0;
+	padding-right: 0;
+}
+.tts-text {
+	text-align: right;
+}
+.tts-form {
+	border-left: 1px solid #ddd;
+}
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.nav, .pagination, .carousel a { cursor: pointer; }

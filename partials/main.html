@@ -1,0 +1,30 @@
+<div class="row">
+	<div class="col-lg-6 tts-text">
+		<h1>Send a voice message.</h1>
+		<p align="justify">Pi is connected to a set of speakers in my living room, so if you'd like a send a message, type in some text <span class="text-warning">(English only)</span> and click the button to make Pi pronounce it!</p>
+	</div>
+	<div class="col-lg-6 tts-form">
+		<form>
+			<fieldset>
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">From:</span>
+						<input ng-model="fromTxt" ng-disabled="formDisabled" class="form-control" type="text" placeholder="Sign here" maxlength="100">
+					</div>
+				</div>
+				<div class="form-group">
+					<textarea ng-model="messageTxt" ng-disabled="formDisabled" class="form-control" maxlength="140" rows="3" placeholder="Say something..." ></textarea>
+					<span class="label label-info text-right">{{140 - messageTxt.length}} characters remaining.</span>
+				</div>
+				<button type="button" class="btn btn-success" ng-click="sayStuff()" ng-disabled="formDisabled">{{buttonText}} <span class="glyphicon glyphicon-{{buttonIcon}}"></span></button>
+				<a ng-href="#/log">See log</a>
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2>Cool, eh? Drop me a line, if you want to learn more!</h2>
+		<p><a class="btn btn-primary btn-lg" href="http://www.dmitry.pyryeskin.com/contact/" target="_blank">Contact me!</a></p>
+	</div>
+</div>

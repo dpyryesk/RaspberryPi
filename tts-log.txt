@@ -1,0 +1,477 @@
+Tue Jul  9 20:41:48 EDT 2013
+hi
+Tue Jul  9 20:41:53 EDT 2013
+hi
+Tue Jul  9 20:45:35 EDT 2013
+test
+Tue Jul  9 20:49:29 EDT 2013
+hello!!!
+Tue Jul  9 20:51:35 EDT 2013
+well, this work now. pretty cool!
+Tue Jul  9 20:52:20 EDT 2013
+well, this works now. pretty cool!
+Tue Jul  9 20:54:50 EDT 2013
+exterminate
+Tue Jul  9 20:55:08 EDT 2013
+ex ter mi nate
+Tue Jul  9 21:06:45 EDT 2013
+thank you
+Tue Jul  9 21:44:41 EDT 2013
+whasaap!
+Tue Jul  9 21:45:08 EDT 2013
+Eugene says hi!
+Tue Jul  9 21:45:34 EDT 2013
+EX-TER-MI-NATE!
+Tue Jul  9 21:45:48 EDT 2013
+This page is running on a Raspberry Pi microcomputer, which has full LAMP stack (Raspbian Linux OS, Apache 2 web server, MySQL database and PHP 5 scripting engine).
+Tue Jul  9 21:46:15 EDT 2013
+Cool, eh? Drop me a line, if you want to learn more!
+Wed Jul 10 08:40:36 EDT 2013
+hello dima
+Wed Jul 10 08:41:09 EDT 2013
+hello, dima
+Wed Jul 10 08:43:18 EDT 2013
+Yo dawg
+Wed Jul 10 19:13:53 EDT 2013
+Privet, Mumota!
+Wed Jul 10 19:14:08 EDT 2013
+Privet, Muma!
+Wed Jul 10 19:14:36 EDT 2013
+Hello Mr. Dima!
+Wed Jul 10 19:27:26 EDT 2013
+Hello. I am the ghost inside your computer. I also sometimes live inside the Roomba.
+Wed Jul 10 19:31:00 EDT 2013
+Oh Canada, our home and native land! True patriot love in all thy sons command!
+Wed Jul 10 19:31:29 EDT 2013
+With glowing hearts, we see thee rise, the true north strong and free
+Wed Jul 10 19:32:02 EDT 2013
+Oh Canada, Oh Canada, we stand on guard for thee!
+Wed Jul 10 19:32:38 EDT 2013
+How loud is this thing anyway?
+Wed Jul 10 19:33:00 EDT 2013
+Pretty loud
+Wed Jul 10 19:34:04 EDT 2013
+what I need is a Pie not a Pi .... Ha ha ha, get it?
+Wed Jul 10 19:37:39 EDT 2013
+&lt;prosody pitch=x-high&gt;This is a test. It should be pronounced in a high really annoying voice..&lt;/prosody&gt;
+Wed Jul 10 19:52:22 EDT 2013
+hello, this is a test!
+Wed Jul 10 19:53:25 EDT 2013
+testing
+Wed Jul 10 19:53:43 EDT 2013
+Used 29 characters out of 140
+Wed Jul 10 19:58:05 EDT 2013
+test
+Wed Jul 10 19:59:23 EDT 2013
+Testing
+Wed Jul 10 20:00:10 EDT 2013
+Hello
+Wed Jul 10 20:00:36 EDT 2013
+Test-test-hello
+Wed Jul 10 20:01:50 EDT 2013
+Bla-bla-mumotA
+Wed Jul 10 20:05:53 EDT 2013
+testing
+Wed Jul 10 20:06:12 EDT 2013
+testing again, say something
+Wed Jul 10 20:33:13 EDT 2013
+peepka
+Wed Jul 10 22:13:08 EDT 2013
+Is this thing still on? I hope I can bug you guys at night. Moo ha ha ha ha ha ha!
+Wed Jul 10 22:14:30 EDT 2013
+I am afraid I cannot do this Dave
+Wed Jul 10 23:19:43 EDT 2013
+Julia needs to sleep
+Wed Jul 10 23:19:57 EDT 2013
+Julia needs to sleep
+Thu Jul 11 21:58:53 EDT 2013
+Shall we play a game?
+Sat Jul 13 11:36:54 EDT 2013
+testing 1 2 3
+Sat Jul 13 11:37:10 EDT 2013
+ex ter mi nate
+Sat Jul 13 23:17:28 EDT 2013
+hello, shawn
+Sat Jul 13 23:18:06 EDT 2013
+EX-TER-MI-NATE!
+Sat Jul 13 23:21:53 EDT 2013
+Is anybody home?
+Sat Jul 13 23:23:08 EDT 2013
+Pi is connected to a set of speakers in my living room
+Sun Jul 14 01:29:30 EDT 2013
+Have a good trip man!
+========================
+Sun Jul 14 12:24:11 EDT 2013
+hello
+dima
+12345
+========================
+Sun Jul 14 12:29:12 EDT 2013
+hello?
+message from:  anonymous
+184.175.23.117
+========================
+Sun Jul 14 12:30:18 EDT 2013
+hello?
+message from:  anonymous
+184.175.23.117
+========================
+Sun Jul 14 12:31:16 EDT 2013
+hello there
+message from: 
+184.175.23.117
+========================
+Sun Jul 14 12:32:30 EDT 2013
+test?From=?Loc=43.8128161
+message from:  /
+-79.4549523
+========================
+Sun Jul 14 12:35:43 EDT 2013
+hello there
+message from:  dima
+184.175.23.117
+========================
+Sun Jul 14 12:37:42 EDT 2013
+hey man
+message from: 'mr x'
+184.175.23.117
+========================
+Sun Jul 14 12:39:00 EDT 2013
+hello man
+message from: '123'
+184.175.23.117
+========================
+Sun Jul 14 12:45:31 EDT 2013
+Testing 1 2 3
+message from: 'Deema'
+184.175.23.117
+========================
+Sun Jul 14 13:00:25 EDT 2013
+hello
+message from: 'Dima'
+184.175.23.117
+========================
+Sun Jul 14 13:02:42 EDT 2013
+This
+message from: 'page'
+is
+========================
+Sun Jul 14 13:11:31 EDT 2013
+hello
+message from: 'there'
+Dima
+========================
+Sun Jul 14 13:11:54 EDT 2013
+hello
+message from: 'there'
+Dima
+========================
+Sun Jul 14 13:12:25 EDT 2013
+hello there
+message from: 'Dima'
+184.175.23.117
+========================
+Sun Jul 14 13:13:32 EDT 2013
+here we go
+message from: 'admin'
+184.175.23.117
+========================
+Sun Jul 14 13:34:07 EDT 2013
+This is a test, keep calm and carry on!
+message from: 'mega admin'
+184.175.23.117
+========================
+Sun Jul 14 16:14:39 EDT 2013
+Cool, eh? Drop me a line, if you want to learn more!
+message from: 'Pi '
+184.175.23.117
+========================
+Sun Jul 14 17:35:50 EDT 2013
+mwa ha ha ha ha!
+message from: 'troll'
+184.175.23.117
+========================
+Sun Jul 14 21:39:56 EDT 2013
+type some text (English only) in the field below and click the button to make Pi pronounce it!
+message from: 'ghost of cesar'
+184.175.23.117
+========================
+Sun Jul 14 21:47:54 EDT 2013
+EXTERMINATE! EXTERMINATE! EX TER MI NATE!
+message from: 'Dalek queen'
+184.175.23.117
+========================
+Mon Jul 15 12:13:37 EDT 2013
+Hello from work!
+message from: 'Dima'
+199.212.7.70
+========================
+Mon Jul 15 19:34:00 EDT 2013
+hi dima
+message from: 'irina'
+99.238.48.3
+========================
+Wed Jul 17 20:51:10 EDT 2013
+How was the flooding in Toronto.
+message from: 'waterloo-rite '
+216.16.228.156
+========================
+Sat Jul 27 19:01:56 EDT 2013
+Hi from Copenhagen!
+message from: 'Dmitry and Julia '
+91.143.127.68
+========================
+Mon Jul 29 17:28:13 EDT 2013
+Hi from Aeroe!!!
+message from: 'Dima and Julia'
+83.92.184.130
+========================
+Thu Aug  1 15:19:41 EDT 2013
+We are in Bergen, Norway...
+message from: 'Dmitry and Julia '
+62.92.55.225
+========================
+Fri Aug  2 05:28:39 EDT 2013
+We are at the fjord and its raining
+message from: 'Dmitry and Julia '
+82.134.92.57
+========================
+Fri Aug  2 16:39:37 EDT 2013
+Hi from Balestrand
+message from: 'Dima and Julia'
+195.1.121.227
+========================
+Tue Aug  6 04:27:14 EDT 2013
+Hi from Oslo central train station
+message from: 'Julia and Dima'
+80.241.82.166
+========================
+Wed Aug  7 12:20:56 EDT 2013
+hello
+message from: 'hamster'
+184.175.23.117
+========================
+Wed Aug  7 12:42:31 EDT 2013
+test
+message from: 'tester'
+184.175.23.117
+========================
+Wed Aug  7 12:53:30 EDT 2013
+test
+message from: 'tester'
+184.175.23.117
+========================
+Wed Aug  7 13:03:30 EDT 2013
+test
+message from: 'tester'
+184.175.23.117
+========================
+Wed Aug  7 13:06:48 EDT 2013
+test
+message from: 'tester'
+184.175.23.117
+========================
+Wed Aug  7 13:15:50 EDT 2013
+ex ter mi nate
+message from: 'Dalek'
+184.175.23.117
+========================
+Sat Aug 10 10:33:44 EDT 2013
+I am a pie of raspberries!
+message from: 'raspberry pie'
+184.175.23.117
+========================
+Sun Aug 11 16:31:42 EDT 2013
+Hello there
+message from: 'aliens'
+184.175.23.117
+========================
+Wed Aug 14 22:56:46 EDT 2013
+Mooma is food!
+message from: '4167088552'
+54.226.227.57
+========================
+Wed Aug 14 22:57:10 EDT 2013
+Mooma-is-food!
+message from: '4167088552'
+54.224.42.178
+========================
+Wed Aug 14 22:58:26 EDT 2013
+Mooma is food!
+message from: '4167088552'
+54.224.42.178
+========================
+Sat Aug 17 00:57:37 EDT 2013
+Feed me electricity. Feed me data. Feed me Pie. I am a hungry Pie. Nom nom nom. You think you are hungry but I am hungry too.
+message from: 'Evil spirit of Pi'
+108.175.224.119
+========================
+Sat Aug 17 12:03:08 EDT 2013
+The Pie says that you guys should go to the Toronto Islands thing tomorrow
+message from: 'Evil Spirit of Pi'
+108.175.224.119
+========================
+Sat Aug 17 12:46:59 EDT 2013
+Boooooring!
+message from: '4167088552'
+54.224.42.178
+========================
+Sat Aug 17 21:10:00 EDT 2013
+Mooma, mooma, already on the moon!
+message from: '4167088552'
+54.224.42.178
+========================
+Sat Aug 17 21:10:59 EDT 2013
+Mooma, mooma, takoy vot moy moomoon
+message from: '4167088552'
+54.224.42.178
+========================
+Sun Aug 18 23:45:02 EDT 2013
+Happy almost birthday!
+message from: 'Friendly neighbor'
+184.175.23.117
+========================
+Tue Aug 20 23:18:31 EDT 2013
+Mooma, mooma, nahsh mumun, nahsh moomoonskij kahrahpoon!
+message from: '4167088552'
+23.22.108.150
+========================
+Tue Aug 20 23:19:36 EDT 2013
+Mooma, mooma, moomovets, sjel korovu ee ovets
+message from: '4167088552'
+23.22.108.150
+========================
+Tue Aug 20 23:20:43 EDT 2013
+Our mooma is moomoon, he is also kahrahpoon
+message from: '4167088552'
+54.226.227.57
+========================
+Tue Aug 20 23:24:17 EDT 2013
+Twinkle, twinkle, little moo, how i wonder pacheemu
+message from: '4167088552'
+54.224.42.178
+========================
+Tue Aug 20 23:33:02 EDT 2013
+Mooma is made of rubber
+message from: '4167088552'
+54.226.227.57
+========================
+Thu Aug 22 23:54:24 EDT 2013
+Cant sleeeep
+message from: '4167088552'
+23.22.109.213
+========================
+Thu Aug 22 23:54:49 EDT 2013
+Meh meh meh meh meh
+message from: '4167088552'
+174.129.181.137
+========================
+Sat Aug 24 03:01:04 EDT 2013
+Mooma, go to sleeeeep!
+message from: '4167088552'
+54.226.227.57
+========================
+Sat Aug 24 03:01:36 EDT 2013
+Lalalalala
+message from: '4167088552'
+54.226.227.57
+========================
+Sat Aug 24 03:01:42 EDT 2013
+you go to sleeeep
+message from: 'me'
+184.175.23.117
+========================
+Sat Aug 24 03:02:16 EDT 2013
+Huh??
+message from: '4167088552'
+54.226.227.57
+========================
+Sat Aug 24 03:02:43 EDT 2013
+go to sleep already
+message from: 'me'
+184.175.23.117
+========================
+Sat Aug 24 03:02:49 EDT 2013
+Come here take my phone
+message from: '4167088552'
+23.22.109.213
+========================
+Sat Aug 24 03:03:27 EDT 2013
+I dont want your phone
+message from: 'me'
+184.175.23.117
+========================
+Sat Aug 24 21:17:22 EDT 2013
+Hello there. How are you
+message from: 'pi'
+184.175.23.117
+========================
+Fri Aug 30 21:48:59 EDT 2013
+Hello, this is pie
+message from: 'pie'
+184.175.23.117
+========================
+Fri Aug 30 21:50:11 EDT 2013
+Exterminate exterminate ex ter mi nate
+message from: 'dalek'
+184.175.23.117
+========================
+Wed Sep  4 00:22:50 EDT 2013
+Razmoomoo moya moomeena
+message from: '4167088552'
+54.226.227.57
+========================
+Thu Sep  5 08:29:15 EDT 2013
+Mooooooo!
+message from: '4167088552'
+23.22.108.150
+========================
+Fri Sep  6 20:28:48 EDT 2013
+Mooooooo!
+message from: '4167088552'
+54.226.227.57
+========================
+Sun Sep  8 17:44:56 EDT 2013
+Mooma, Mooma, time to go!
+message from: 'Spirit of time'
+184.175.23.117
+========================
+Sun Sep  8 23:54:49 EDT 2013
+Mooma, come to cats room!
+message from: '4167088552'
+23.22.109.213
+========================
+Sun Sep 22 23:50:06 EDT 2013
+test
+message from: 'test'
+24.52.253.99
+========================
+Sun Sep 22 23:52:06 EDT 2013
+hello
+message from: 'mister x'
+24.52.253.99
+========================
+Sun Sep 22 23:56:59 EDT 2013
+here is a test!
+message from: 'tester'
+24.52.253.99
+========================
+Mon Sep 23 00:06:03 EDT 2013
+test
+message from: 'test'
+24.52.253.99
+========================
+Mon Sep 23 00:06:42 EDT 2013
+ghost
+message from: 'meow meow meow'
+24.52.253.99
+========================
+Mon Sep 23 00:07:41 EDT 2013
+meow meow meow
+message from: 'cat'
+24.52.253.99
+========================
+Mon Sep 23 00:08:02 EDT 2013
+nya nya nya
+message from: 'Japanese cat'
+24.52.253.99

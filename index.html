@@ -1,144 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="pi">
 <head>
 <title>Raspberry Pi : Main</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-<link href="bootstrap/css/bootstrap-glyphicons.css" rel="stylesheet">
-<link href="main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-glyphicons.css">
+<link rel="stylesheet" href="css/app.css"/>
+<!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  --> 
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-resource.js"></script>
+<script src="lib/ui-bootstrap-0.6.0.min.js"></script> 
+<script src="js/app.js"></script> 
+<script src="js/services.js"></script> 
+<script src="js/controllers.js"></script> 
+<script src="js/filters.js"></script> 
+<script src="js/directives.js"></script>
 </head>
 <body>
-<div class="container">
+<div class="container" style="max-width: 960px;">
 	<div class="jumbotron">
-		<h1>Welcome to the Pi!</h1>
-		<p class="lead">This page is running on a <a href="http://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> microcomputer, which has full LAMP stack (Raspbian <strong>L</strong>inux OS, <strong>A</strong>pache 2 web server, <strong>M</strong>ySQL database and <strong>P</strong>HP 5 scripting engine).</p>
+		<h1><a href="index.html" style="color:#000;">Welcome to the Pi!</a></h1>
+		<a href="http://www.raspberrypi.org/" target="_blank"><span class="label label-success">Raspberry Pi</span></a>
+		<a href="http://www.raspbian.org/" target="_blank"><span class="label label-primary">Raspbian</span></a>
+		<a href="http://httpd.apache.org/" target="_blank"><span class="label label-primary">Apache</span></a>
+		<a href="http://php.net/" target="_blank"><span class="label label-primary">PHP</span></a>
+		<a href="http://www.mysql.com/" target="_blank"><span class="label label-primary">MySQL</span></a>
+		<a href="http://angularjs.org/" target="_blank"><span class="label label-primary">AngularJS</span></a>
 	</div>
-	<div class="alert alert-success fade in" id="alert_box" style="display:none;">
-		<button type="button" class="close" id="alert_box_x">&times;</button>
-		<strong>Done!</strong> Pi pronounced your message. </div>
-	<div class="row">
-		<div class="col-lg-4">
-			<h2>Send a voice message.</h2>
-			<p align="justify">Pi is connected to a set of speakers in my living room, so if you'd like a send a message, type some text <span class="text-warning">(English only)</span> in the field below and click the button to make Pi pronounce it!</p>
-			<form>
-				<fieldset>
-					<div class="form-group">
-						<textarea class="form-control" name="tts_text" maxlength="140" id="tts_text" rows="3" placeholder="Say something..." ></textarea>
-						<span class="label label-info text-right">Used <span id="tts_text_count">0</span> characters out of 140.</span> </div>
-					<div class="form-group">
-						<div class="input-group"> <span class="input-group-addon">From:</span>
-							<input class="form-control" name="from_text" id="from_text" type="text" placeholder="Sign here" maxlength="100">
-						</div>
-					</div>
-					<button type="button" class="btn btn-primary" id="tts_button" data-loading-text="Wait...">Say stuff! <span class="glyphicon glyphicon-comment"></span></button>
-					<a href="log.php">See log</a>
-				</fieldset>
-			</form>
-		</div>
-		<div class="col-lg-4">
-			<h2>Another function</h2>
-			<p>Coming soon!</p>
-			<p>
-				<button type="button" class="btn btn-primary" disabled>EXTERMINATE!</button>
-			</p>
-		</div>
-		<div class="col-lg-4">
-			<h2>Yet another function</h2>
-			<p>Coming soon!</p>
-			<p>
-				<button type="button" class="btn btn-primary" disabled>EX-TER-MI-NATE!</button>
-			</p>
-		</div>
+	
+	<!-- Alerts -->
+	<div ng-controller="AlertController">
+		<alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert($index)">{{alert.msg}}</alert>
 	</div>
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 text-center">
-			<h2>Cool, eh? Drop me a line, if you want to learn more!</h2>
-			<p><a class="btn btn-success btn-lg" href="http://www.dmitry.pyryeskin.com/contact/" target="_blank">Contact me!</a></p>
-		</div>
-	</div>
-	<div class="footer text-right">
+	<!-- /Alerts -->
+	
+	<!-- View -->
+	<div ng-view></div>
+	<!-- /View -->
+	
+	<footer class="footer text-right">
 		<p>&copy; <a href="http://www.dmitry.pyryeskin.com/" target="_blank">dmitry.pyryeskin.com</a></p>
-	</div>
+	</footer>
 </div>
-<script src="jQuery/jquery-2.0.3.min.js"></script> 
-<script src="bootstrap/js/bootstrap.min.js"></script> 
-<script>
-$(document).ready(function(){
-	var ttsInProgress = false;
-	var ttsText = $("#tts_text");
-	var fromText = $("input[id=from_text]");
-	var ttsButton = $("#tts_button");
-	var alertBox = $("#alert_box");
-	var ttsCount = $("#tts_text_count");
-	var location;
-	
-	// Get user's location
-	if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(geoSuccess, geoError);
-	}
-	
-	function geoSuccess(position) {
-		var crd = position.coords;
-		
-		location = "'" + crd.latitude + " / " + crd.longitude + "'";
-		/*
-		console.log('Your current position is:');
-		console.log('Latitude : ' + crd.latitude);
-		console.log('Longitude: ' + crd.longitude);
-		console.log('More or less ' + crd.accuracy + ' meters.');
-		*/
-	}
-	
-	function geoError(err) {
-		console.warn('ERROR(' + err.code + '): ' + err.message);
-	}
-	
-	ttsButton.click(function(){
-		if (!ttsInProgress) {
-			var text = "'" + ttsText.val() + "'";
-			var from = "'" + fromText.val() + "'";
-			
-			if (ttsText.val()) {
-				var urlString = "tts.php?Body=" + text + "&From=" + from + "&Loc=" + location;
-				
-				ttsInProgress = true;
-				ttsButton.button('loading');
-				
-				text = text.replace("\n", " ");
-				
-				$.ajax({url:urlString, success:function(result) {
-					ttsInProgress = false;
-					ttsButton.button('reset');
-					ttsText.val("");
-					fromText.val("");
-					updateCount();
-					
-					alertBox.show();
-				}});
-			} else {
-				alert("Type something in the text box!");
-			}
-		}
-	});
-	
-	function updateCount(){
-        var text = ttsText.val();
-        ttsCount.text(text.length);
-    }
-	
-	ttsText.change(function(e) {
-        updateCount();
-    });
-	
-	ttsText.keyup(function(e) {
-        updateCount();
-    });
-	
-	$('#alert_box_x').click(function() {
-    	alertBox.hide();
-	});
-});
-</script>
 </body>
 </html>

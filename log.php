@@ -54,7 +54,7 @@ if (!mysqli_connect_errno($con))
 						echo "<tr>";
 						echo "<td>" . $row['date'] . "</td>";
 						echo "<td>" . $row['text'] . "</td>";
-						echo "<td>" . $row['from'] . "</td>";
+						echo "<td>" . $row['sender'] . "</td>";
 						echo "<td>" . $row['ip'] . "</td>";
 						if ($row['location'] != "undefined") {
 							echo "<td align='center'><a class='btn btn-mini btn-block' onClick='showMapFromString(\"" . $row['location'] . "\");'><span class='glyphicon glyphicon-map-marker'></span></a></td>";
