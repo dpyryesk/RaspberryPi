@@ -1,27 +1,22 @@
 <div class="row">
-	<div class="col-lg-12"> Sort by:
-		<select ng-model="orderProp">
-			<option value="date">Date</option>
-			<option value="sender">From</option>
-			<option value="ip">IP address</option>
-		</select>
+	<div class="col-lg-12">
 		<table class="table table-striped table-hover table-condensed" width="100%">
 			<thead>
 				<tr>
-					<th>Timestamp</th>
-					<th>Text</th>
-					<th>From</th>
-					<th>IP</th>
+					<th><a href="" ng-click="predicate='date'; reverse=!reverse">Timestamp</a></th>
+					<th><a href="" ng-click="predicate='text'; reverse=!reverse">Text</a></th>
+					<th><a href="" ng-click="predicate='sender'; reverse=!reverse">From</a></th>
+					<th><a href="" ng-click="predicate='ip'; reverse=!reverse">IP</a></th>
 					<th width='10px'>Map</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-repeat="log in logs | orderBy:orderProp">
+				<tr ng-repeat="log in logs | orderBy:predicate:reverse">
 					<td>{{log.date}}</td>
 					<td>{{log.text}}</td>
 					<td>{{log.sender}}</td>
 					<td>{{log.ip}}</td>
-					<td align='center'><a class='btn btn-mini btn-block' ng-click="showMap(log.location)"><span class='glyphicon glyphicon-map-marker'></span></a></td>
+					<td align='center'><a class='btn btn-mini btn-block' ng-click="showMap(log.location)" ng-disabled="log.location == 'undefined' || log.location ==''"><span class='glyphicon glyphicon-map-marker'></span></a></td>
 				</tr>
 			</tbody>
 		</table>

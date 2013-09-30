@@ -76,25 +76,61 @@ function MainController($scope, $http) {
 }
 
 function LogController($scope, ttsLog, $modal) {
-	$scope.orderProp = "date";
+	$scope.predicate = "-date";
 	$scope.logs = ttsLog.query();
 	$scope.currentPage = 1;
 	
 	$scope.showMap = function (location) {
 		var modalInstance = $modal.open({
-		  templateUrl: 'partials/map_modal.html',
-		  controller: ModalInstanceCtrl,
-		  resolve: {
-			loc: function () {
-				return location;
+			templateUrl: 'partials/map_modal.html',
+			controller: ModalInstanceCtrl,
+			resolve: {
+				loc: function () {
+					return location;
 			}
-		  }
-		});
+		}
+	});
   };
 }
 
 var ModalInstanceCtrl = function ($scope, $modalInstance, loc) {
-	console.log('>>>> ' + loc);
+	var lat = 0;
+	var long = 0;
+
+	if (loc != "undefined") {
+		var str = loc.split(" / ");
+		lat = str[0];
+		long = str[1];
+	}
+
+	google.maps.visualRefresh = true;
+
+	angular.extend($scope, {
+
+	    position: {
+	      coords: {
+	        latitude: lat,
+	        longitude: long
+	      }
+	    },
+
+		/** the initial center of the map */
+		centerProperty: {
+			latitude: lat,
+			longitude: long
+		},
+
+		/** the initial zoom level of the map */
+		zoomProperty: 15,
+
+		/** list of markers to put in the map */
+		markersProperty: [{
+			latitude: lat,
+			longitude: long
+		}]
+	});
+	
+	
 	
 	$scope.close = function () {
 		$modalInstance.dismiss('cancel');
