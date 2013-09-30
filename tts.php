@@ -35,7 +35,7 @@ $con=mysqli_connect("localhost","www","yXaXyRB5XAecr7TA","pi");
 if (!mysqli_connect_errno($con))
 {
 	// Insert data
-	$sql = "INSERT INTO  `tts_log` (  `text` ,  `from` ,  `ip` ,  `location` )
+	$sql = "INSERT INTO  `tts_log` (  `text` ,  `sender` ,  `ip` ,  `location` )
 		VALUES ('" . $text . "', '" . $from . "', '" . $ip . "', '" . $location . "')";
 	
 	if (!mysqli_query($con, $sql))
